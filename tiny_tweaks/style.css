@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  font-size: 16px;
+}
+
+nav{
+  background: #EEEEEE;
+  height: 64px;
+  line-height: 64px;
+}
+
+.c1{
+  padding: 1em;
+  font-size: 1em;
+}
+
+@media screen and (min-width:500px){
+  .c1{
+    padding: 1.5em;
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width:800px){
+  .c1{
+    padding: 2em;
+    font-size: 2em;
+  }
+}
+
+@media print{
+  .c1{
+    color: red;
+    font-size: 2em;
+  }
+}
