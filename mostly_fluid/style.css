@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+}
+
+section{
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.c1{
+  background: lightblue;
+  height: 400px;
+}
+
+.c2{
+  background: lightcoral;
+  height: 150px;
+}
+
+.c3{
+  background: lightgoldenrodyellow;
+  height: 150px;
+}
+
+.c4{
+  background: lightgreen;
+  height: 150px;
+}
+
+.c5{
+  background: lightgray;
+  height: 150px;
+}
+
+@media screen and (min-width: 500px){
+  .c2, .c3, .c4, .c5{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .container{
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .c1{
+    width: 60%;
+  }
+
+  .c2{
+    width: 40%;
+    height: 400px;
+  }
+
+  .c3, .c4, .c5{
+    width: 33.3%;
+  }
+}
