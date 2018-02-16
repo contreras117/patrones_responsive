@@ -22,6 +22,10 @@ body{
   height: 400px;
 }
 
+.c1, .container-inner{
+  width: 100%;
+}
+
 @media screen and (min-width: 500px){
   .c1{
     height: 175px;
@@ -29,5 +33,17 @@ body{
 }
 
 @media screen and (min-width: 800px){
-  
+  .container{
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  .c1{
+    width: 30%;
+    height: 100vh;
+  }
+
+  .container-inner{
+    width: 70%;
+  }
 }
